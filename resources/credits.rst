@@ -23,6 +23,9 @@ Request
 ``amount``
 : *required* **integer**
 
+``description``
+: *optional* **string** or `null`
+
 ``bank_account``
 : *required* **object**
 : `Bank Account <./bank_accounts.rst>`_
@@ -88,6 +91,9 @@ Request
 
 ``amount``
 : *required* **integer**
+
+``description``
+: *optional* **string** or `null`
 
 .. code:: javascript
 

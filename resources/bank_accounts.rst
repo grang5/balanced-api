@@ -7,6 +7,45 @@ Bank Accounts
 -  `Delete a Bank Account`_
 
 
+Fields
+------
+
+``id``
+: **string**
+
+``uri``
+: **string**
+
+``created_at``
+: **string**
+: `iso8601 <http://en.wikipedia.org/wiki/Iso8601>`_
+
+``credits_uri``
+: **string**
+
+``name``
+: **string**
+: Name of account holder
+
+``account_number``
+: **string**
+
+``routing_number``
+: **string**
+: 9 digits
+: Meets `MICR routing number format <http://en.wikipedia.org/wiki/Routing_transit_number#MICR_Routing_number_format>`_
+: Specified in FedACH database defined by the
+`US Federal Reserve <http://www.fedwiredirectory.frb.org/>`_
+
+``fingerprint``
+: **string**
+: Uniquely identifies a bank account (account number and routing number)
+
+``type``
+: **string**
+: ``checking`` or ``savings``
+
+
 Create a bank account
 --------------------
 

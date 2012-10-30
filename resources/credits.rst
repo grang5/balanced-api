@@ -9,6 +9,40 @@ Credits
 -  `List All Credits for a Bank Account`_
 
 
+Fields
+------
+
+``id``
+: **string**
+
+``uri``
+: **string**
+
+``created_at``
+: **string**
+: `iso8601 <http://en.wikipedia.org/wiki/Iso8601>`_
+
+``amount``
+: **integer**
+: ``>= 0``
+: USD cents
+
+``description``
+: **string** or ``null``
+
+``status``
+: **string**
+: ``pending``, ``paid`` or ``failed``
+
+``trace_number``
+: **string** or ``null``
+: Used by the ACH network to track transactions
+
+``bank_account``
+: **object**
+: `Bank Account <./resources/bank_accounts.rst>`_
+
+
 Credit a new bank account
 -------------------------
 

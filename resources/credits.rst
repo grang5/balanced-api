@@ -1,5 +1,5 @@
-Credits
-=======
+Credits ``/a1/credits``
+=======================
 
 -  `Credit a New Bank Account`_
 -  `Credit an Existing Bank Account`_

@@ -1,5 +1,5 @@
-Bank Accounts
-=============
+Bank Accounts ``/a1/bank_accounts``
+===================================
 
 -  `Create a Bank Account`_
 -  `Retrieve a Bank Account`_

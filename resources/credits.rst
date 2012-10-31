@@ -265,6 +265,12 @@ Body
 List all credits
 ----------------
 
+``limit``
+: *optional* **integer**, *default is 10*
+
+``offset``
+: *optional* **integer**, *default is 0*
+
 .. code::
 
     GET /a1/credits
@@ -348,13 +354,22 @@ Body
                 "trace_number": null,
                 "uri": "/a1/credits/CR7viaeJ3HkaQg9cUNjiLW7o"
             }
-        ]
+        ],
+        "limit": 10,
+        "offset": 0,
+        "total": 3
     }
 
 
 
 List all credits for a bank account
 -----------------------------------
+
+``limit``
+: *optional* **integer**, *default is 10*
+
+``offset``
+: *optional* **integer**, *default is 0*
 
 .. code::
 
@@ -439,5 +454,8 @@ Body
                 "trace_number": null,
                 "uri": "/a1/credits/CR7vMIyVhoWcTwAsQRKZdwjU"
             }
-        ]
+        ],
+        "limit": 10,
+        "offset": 0,
+        "total": 3
     }

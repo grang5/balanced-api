@@ -150,6 +150,12 @@ Body
 List all bank accounts
 ----------------------
 
+``limit``
+: *optional* **integer**, *default is 10*
+
+``offset``
+: *optional* **integer**, *default is 0*
+
 .. code::
 
     GET /a1/bank_accounts
@@ -206,7 +212,10 @@ Body
                 "type": "checking",
                 "uri": "/a1/bank_accounts/BA7leLc7ul7XQ9xFLsSWu4jw"
             }
-        ]
+        ],
+        "limit": 10,
+        "offset": 0,
+        "total": 3
     }
 
 

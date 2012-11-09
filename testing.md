@@ -4,7 +4,7 @@
 ## Credit Status
 
 Use the following bank account numbers to create a credit with a
-specific status. Only the following account and routing numbers may be unsed
+specific status. Only the following account and routing numbers may be used
 in the test environment.
 
 ### `pending`
